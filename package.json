@@ -1,0 +1,23 @@
+{
+  "name": "postgresqljavascript",
+  "version": "1.0.0",
+  "description": "postsql javascript excercise lhl w4d2",
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^7.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basktballer/PostgreSQLJavascript.git"
+  },
+  "author": "Eden Y.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basktballer/PostgreSQLJavascript/issues"
+  },
+  "homepage": "https://github.com/basktballer/PostgreSQLJavascript#readme"
+}
