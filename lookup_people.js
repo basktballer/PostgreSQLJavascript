@@ -1,7 +1,7 @@
 const dayjs = require('dayjs');
-const db = require ('./test_script')
 const knexdb = require('./knex_script') 
 const input = process.argv[2];
+// const db = require ('./test_script')
 
 // db.lookupPeople(input,function(err, output) {
 //       if(!err) {
@@ -22,10 +22,8 @@ knexdb.lookupPeople(input,function(err, output) {
           });
         } else {
           console.log(err);
-        }
-        knexdb.destroy();
+        }        
       });
 
 console.log("Searching...");
-
 
