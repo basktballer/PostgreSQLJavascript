@@ -32,7 +32,7 @@ module.exports = (function(){
   }
 
   function lookupPeople(name, callback) {
-    client.query(`SELECT * FROM famous_people WHERE first_name = $1 OR last_name = $1`, [name])
+    client.query(`SELECT * FROM famous_people WHERE first_name = $1 OR last_nameasfas = $1`, [name])
     .then (results => {
       callback(null, results)
       client.end();
